@@ -94,7 +94,7 @@ const Dashboard = () => {
           {user ? (
             <>
               <h2 className='card-subtitle mb-3'>
-                Welcome, {user.name || 'User'}!
+                Hello, {user.name || 'User'}  :)
               </h2>
 
               {!user.emailVerified ? (
@@ -123,11 +123,11 @@ const Dashboard = () => {
                     onChange={(e) => setNewName(e.target.value)}
                     placeholder='Enter new name'
                   />
-                  <button
+                  <button 
                     className='btn btn-primary mt-3'
                     onClick={handleNameUpdate}
                   >
-                    Update Name
+                    Update Your Name
                   </button>
                 </div>
               )}

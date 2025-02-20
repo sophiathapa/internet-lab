@@ -62,7 +62,7 @@ const Register: React.FC<RegisterProps> = () => {
   return (
     <div className='container'>
       <div>
-        <h1 className='title'>Internet and Intranet Lab</h1>
+        <h1 className='title'></h1>
         <div className='card'>
           <div className='card-body'>
             <h3 className='card-title'>Register</h3>
@@ -104,7 +104,7 @@ const Register: React.FC<RegisterProps> = () => {
               </div>
             </form>
             <h6 className='d-flex justify-content-center align-items-center'>
-              <a href='/'>Already registered? Login</a>
+              <a href='/'>Already registered ? Login</a>
             </h6>
           </div>
         </div>

@@ -66,7 +66,7 @@ const Login: React.FC<LoginProps> = () => {
   return (
     <div className='container'>
       <div>
-        <h1 className='title'>Internet and Intranet Lab</h1>
+        <h1 className='title'></h1>
         <div className='card'>
           <div className='card-body'>
             <h3 className='card-title'>Login</h3>
